@@ -1,0 +1,62 @@
+html {
+	background-color: white;
+	font-size = 10px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+#topbody{
+	
+	background-color: #91bbff;
+	color:white;
+	border: 0px solid black;
+	margin: auto;
+    width: 100%;
+    padding: 0px;
+	margin-top:-50px;
+}
+#topbodytext{
+	
+	text-align:left;
+	color: white;
+	margin-left: 10px;
+	letter-spacing:5px;
+	
+	font-size:4.5em;
+}
+button{
+	
+	
+	
+	position: absolute;
+	margin: auto;
+
+    right: 0px;
+	top: 0px;
+    width: 120px;
+	
+	font-size: 25px;
+
+	color:white;
+    padding: 10px;
+	background: transparent;
+	border: none !important;''
+	
+}
+ul {
+	
+	position: absolute;
+	left: 75%;
+	transform: translatex(-50%);
+	width: 800px;
+	top:40px;
+}
+li {
+	display: inline;
+	padding: 15px;
+	font-size: 35px;
+}
+a{
+	color: white;
+	
+    text-decoration: none;
+
+}
