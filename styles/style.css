@@ -6,22 +6,22 @@ html {
 }
 #topbody{
 	
-	background-color: #91bbff;
+	background-color: #6200eeff;
 	color:white;
 	border-style: none;
 	
     width: 150%;
-    padding: 0px;
+    padding: 20px;
 	margin-top:-50px;
 }
 #topbodytext{
 	
 	text-align:left;
 	color: white;
-	margin-left: 10px;
+	padding-left: 64px;
 	letter-spacing:5px;
-	
-	font-size:4.5em;
+	padding-top: 16px;
+	font-size:3.5em;
 }
 button{
 	
