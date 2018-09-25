@@ -1,4 +1,4 @@
-var myImage = document.querySelectorAll('img')[0]
+/*var myImage = document.querySelectorAll('img')[0]
 
 myImage.onclick = function(){
 	var mySrc = myImage.getAttribute('src')
@@ -32,4 +32,4 @@ if(!localStorage.getItem('name')){
 myButton.onclick = function() {
   setUserName();
 }
-
+*/

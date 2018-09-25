@@ -1,15 +1,16 @@
 html {
 	background-color: white;
-	font-size = 10px;
-	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size = 14px;
+	font-family: 'Roboto', sans-serif;
+	color:#00000099;
 }
 #topbody{
 	
 	background-color: #91bbff;
 	color:white;
-	border: 0px solid black;
-	margin: auto;
-    width: 100%;
+	border-style: none;
+	
+    width: 150%;
     padding: 0px;
 	margin-top:-50px;
 }
