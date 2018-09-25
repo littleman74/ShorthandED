@@ -10,17 +10,17 @@ html {
 	color:white;
 	border-style: none;
 	
-    width: 150%;
+    width: 100%;
     padding: 20px;
 	margin-top:-50px;
 }
 #topbodytext{
 	
-	text-align:left;
+	text-align: center;
 	color: white;
-	padding-left: 64px;
+	padding-top: 32px;
+	padding-right: 500px;
 	letter-spacing:5px;
-	padding-top: 16px;
 	font-size:3.5em;
 }
 button{
