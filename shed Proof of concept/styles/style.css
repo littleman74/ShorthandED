@@ -1,0 +1,26 @@
+html{
+	background-color:white;
+}
+
+/* what each emoji div should have */
+#emojiboarddiv{
+	position: absolute;
+	
+}
+/* Specific styles for each emoji */
+#emojismile{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	cursor: grab;
+}
+
+
+/* Student List */
+#studentprofile{
+	width: 200px;
+	height: 200px;
+}
+#studentdiv{
+	background-color:red;
+}
