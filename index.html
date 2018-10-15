@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content = "Gabriel Arnelll">
-		<meta name="description" content = "Mockup site for shorthandED">
-		
-		
-		<!-- CSS LINKS-->
-		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
 
-		<link href="style.css" rel="stylesheet" type="text/css">
-		
-		<!-- Visuals -->
-		<title>shorthandED</title>
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<script src="main.js"></script>
-	</head>
-	
-	<!-- TOP BAR-->
-	<body style="margin-left: 0px;">
-		<div  id="topbody">
-		<h1  id="topbodytext">
-			ShortHandED
-		</h1>		
-		</div>
-		<div id="sidebar">
-			<div id="sidetoplist">
-				<h3>Home</h3>
-				<h3>Classes</h3>
-			</div>
-		</div>
-          <button class="foo-button mdc-button">
-    Button
-  </button>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Gabriel Arnelll">
+    <meta name="description" content="Mockup site for shorthandED">
+
+
+    <!-- CSS LINKS-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!-- Visuals -->
+    <title>shorthandED</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="main.js"></script>
+</head>
+
+<!-- TOP BAR-->
+
+<body style="margin-left: 0px;">
+    <aside class="mdc-drawer">
+        <div class="mdc-drawer__content">
+            <nav class="mdc-list">
+                <a class="mdc-list-item mdc-list-item--activated" href="#" aria-selected="true">
+                    <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
+                    <span class="mdc-list-item__text">Inbox</span>
+                </a>
+                <a class="mdc-list-item" href="#">
+                    <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
+                    <span class="mdc-list-item__text">Outgoing</span>
+                </a>
+                <a class="mdc-list-item" href="#">
+                    <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
+                    <span class="mdc-list-item__text">Drafts</span>
+                </a>
+            </nav>
+        </div>
+    </aside>
+    <div id="topbody">
+        <h1 id="topbodytext">
+            ShortHandED
+        </h1>
+    </div>
+    <div id="sidebar">
+        <div id="sidetoplist">
+            <button class="foo-button mdc-button">
+                Home
+            </button>
+            <button class="foo-button mdc-button">
+                Classes
+            </button>
+        </div>
+    </div>
+</body>
+
 </html>

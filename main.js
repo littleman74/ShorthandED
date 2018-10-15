@@ -1,3 +1,6 @@
+import {MDCList} from "@material/list";
+const list = MDCList.attachTo(document.querySelector('.mdc-list'));
+list.wrapFocus = true;
 /*var myImage = document.querySelectorAll('img')[0]
 
 myImage.onclick = function(){
