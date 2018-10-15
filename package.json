@@ -1,0 +1,34 @@
+{
+  "name": "shorthanded",
+  "version": "1.0.0",
+  "description": "test?",
+  "main": "main.js",
+  "dependencies": {
+    "material-components-web": "^0.40.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.2.0",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3"
+  },
+  "scripts": {
+    "test": "uhhhh",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littleman74/ShorthandED.git"
+  },
+  "author": "littleman74",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littleman74/ShorthandED/issues"
+  },
+  "homepage": "https://github.com/littleman74/ShorthandED#readme"
+}

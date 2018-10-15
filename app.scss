@@ -1,0 +1,89 @@
+@import "@material/button/mdc-button";
+
+.foo-button {
+  @include mdc-button-ink-color(teal);
+  @include mdc-states(teal);
+}
+html {
+	background-color: #fcfcfc;
+	font-size : 5px;
+	font-family: 'Roboto', sans-serif;
+	color:#00000099;
+}
+#topbody{
+	
+	background-color: #6200eeff;
+	color:white;
+	border-style: none;
+	
+    width: 100%;
+    padding-left: 26px;
+	padding-right: 26px;
+	padding-bottom: 26px;
+	padding-top: 26px;
+	margin-top:-50px;
+	margin-left: 256px;
+}
+#topbodytext{
+	
+	text-align: center;
+	color: white;
+	padding-top: 32px;
+	padding-right: 600px;
+	letter-spacing:0px;
+	font-size:2.5em;
+}
+
+#menuopenicon{
+
+}
+#sidebar{
+	
+	background: white;
+	width: 256px;
+  height: 1000px;
+  position: absolute;
+  transform: translate(0px,-142px);	
+}
+#sidetoplist{
+	padding-left: 16px;
+}
+
+button{
+	
+	
+	
+	position: absolute;
+	margin: auto;
+
+    right: 0px;
+	top: 0px;
+    width: 120px;
+	
+	font-size: 25px;
+
+	color:white;
+    padding: 10px;
+	background: transparent;
+	border: none !important;
+	
+}
+ul {
+	
+	position: absolute;
+	left: 38%;
+	transform: translatex(-50%);
+	width: 800px;
+	top: 32px;
+}
+li {
+	display: inline;
+	padding: 0px;
+	font-size: 35px;
+}
+a{
+	color: white;
+	
+    text-decoration: none;
+
+}
