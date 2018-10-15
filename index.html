@@ -16,44 +16,43 @@
     <title>shorthandED</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <!-- TOP BAR-->
 
-<body style="margin-left: 0px;">
+<body style="margin: 0px;">
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <a href="#" class="material-icons mdc-top-app-bar__navigation-icon">menu</a>
+                <span class="mdc-top-app-bar__title">Title</span>
+            </section>
+        </div>
+    </header>
     <aside class="mdc-drawer">
+        <div class="mdc-drawer__header">
+            <h3 class="mdc-drawer__title">Professor Michael</h3>
+            <h6 class="mdc-drawer__subtitle">The Mirabito Institute of Technology</h6>
+        </div>
         <div class="mdc-drawer__content">
             <nav class="mdc-list">
                 <a class="mdc-list-item mdc-list-item--activated" href="#" aria-selected="true">
                     <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
-                    <span class="mdc-list-item__text">Inbox</span>
+                    <span class="mdc-list-item__text">Home</span>
                 </a>
                 <a class="mdc-list-item" href="#">
                     <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
-                    <span class="mdc-list-item__text">Outgoing</span>
+                    <span class="mdc-list-item__text">Classes</span>
                 </a>
                 <a class="mdc-list-item" href="#">
                     <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
-                    <span class="mdc-list-item__text">Drafts</span>
+                    <span class="mdc-list-item__text">Statistics</span>
                 </a>
             </nav>
         </div>
     </aside>
-    <div id="topbody">
-        <h1 id="topbodytext">
-            ShortHandED
-        </h1>
-    </div>
-    <div id="sidebar">
-        <div id="sidetoplist">
-            <button class="foo-button mdc-button">
-                Home
-            </button>
-            <button class="foo-button mdc-button">
-                Classes
-            </button>
-        </div>
-    </div>
 </body>
 
 </html>
