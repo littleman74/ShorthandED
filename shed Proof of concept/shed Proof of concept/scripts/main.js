@@ -201,8 +201,6 @@ let items = divEmojiBoard.children;
 
 for (let i = 0; i< items.length; i++){
 	
-	
-	
 	let item = items[i];
 	item.style.left = ((emojitilesize)*i+(i*emojitilepadding)+(emojitilepadding/2))+'px';
 	
