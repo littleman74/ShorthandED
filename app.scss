@@ -26,8 +26,8 @@ html {
 
 .studentcard {
     margin: auto;
-    height: 350px;
-    width: 350px;
+    height: 382px;
+    width: 344px;
 }
 
 body {
@@ -50,7 +50,48 @@ body {
 }
 
 .studentprofileimage {
-    border-radius: 50%;
-    height: 350px;
+    height: 194px;
+    width: 344px;
+    margin: auto;
+}
 
+.Studentname {
+    padding-bottom: 16px;
+}
+
+h1 {
+    padding-top: 23px;
+    padding-left: 88px;
+    color: #000000de;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-width: 22px;
+    padding-top: 12px;
+    padding-left: 88px;
+    color: #00000099;
+    font-size: 14px;
+}
+
+.gremlin {
+    border-radius: 50%;
+    width: 51px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.mdc-card__media--square::before {
+    margin-top: 0;
+}
+
+.studentcardtext {
+    padding-top: 28px;
+    padding-left: 16px;
+    padding-bottom: 24px;
 }
