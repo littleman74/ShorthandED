@@ -95,3 +95,8 @@ h2 {
     padding-left: 16px;
     padding-bottom: 24px;
 }
+
+.mdc-top-app-bar{
+    mdc-elevation--z:16;
+    z-index: 7;
+}
