@@ -3,7 +3,6 @@
 @import "@material/list/mdc-list";
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/card/mdc-card";
-
 .foo-button {
     @include mdc-button-ink-color(#14c7ba);
     @include mdc-states(teal);
@@ -99,4 +98,6 @@ h2 {
 .mdc-top-app-bar{
     mdc-elevation--z:16;
     z-index: 7;
+	 @include mdc-top-app-bar-fill-color(#00b0ff);
+	mdc-top-app-bar-ink-color:blue;
 }
