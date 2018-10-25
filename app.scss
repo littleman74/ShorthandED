@@ -1,3 +1,8 @@
+$mdc-theme-primary: #2196F3;
+$mdc-theme-secondary: #03A9F4;
+$mdc-theme-on-primary: #FFFFFF;
+$mdc-theme-on-secondary: #FFFFFF;
+
 @import "@material/button/mdc-button";
 @import "@material/drawer/mdc-drawer";
 @import "@material/list/mdc-list";
@@ -51,6 +56,7 @@ body {
 
 .studentprofileimage {
     width: 344px;
+	height:344px;
     margin: auto;
 }
 
@@ -98,6 +104,4 @@ h2 {
 .mdc-top-app-bar{
     mdc-elevation--z:16;
     z-index: 7;
-	 @include mdc-top-app-bar-fill-color(#00b0ff);
-	mdc-top-app-bar-ink-color:blue;
 }
