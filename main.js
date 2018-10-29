@@ -1,4 +1,6 @@
-import {MDCList} from "@material/list";
+import {
+	MDCList
+} from "@material/list";
 const list = MDCList.attachTo(document.querySelector('.mdc-list'));
 list.wrapFocus = true;
 import {
@@ -12,3 +14,8 @@ const topAppBar = new MDCTopAppBar(topAppBarElement);
 var divStudentCard = document.getElementById("studentcard");
 var cln = divStudentCard.cloneNode(true);
 document.body.appendChild(cln);
+
+
+// Getting the boards
+var divEmojiBoard = document.getElementById("emojiboarddiv");
+var divStudentBoard = document.getElementById("studentboarddiv");
