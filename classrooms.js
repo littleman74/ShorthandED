@@ -273,27 +273,30 @@ function loadClass(currentClassId) {
 		for (let i = 0; i < currentStudents.length; i++) {
 
 			let studentIcon = document.createElement('div');
-
+			studentIcon.className = "mdc-card";
 			// setting properties
 			studentIcon.style.width = studenttilesize + "px";
 			studentIcon.style.height = studenttilesize + "px";
 			studentIcon.style.position = "absolute";
-			studentIcon.style.borderRadius = '50%';
 
 			studentIcon.style.zIndex = '1';
 
+			var subicon = document.createElement("img");
+			subicon.setAttribute('src', "images/studentdefaulticon.png");
 
+			subicon.setAttribute('height', "75%");
+			subicon.setAttribute('width', '75%');
+			subicon.style.margin = "auto";
+			studentIcon.appendChild(subicon);
 			// Adding background properties
-			let imagefile = 'url("images/studentdefaulticon.png")';
 
-			studentIcon.style.backgroundImage = imagefile;
 			studentIcon.style.backgroundSize = studenttilesize + 'px ' + studenttilesize + 'px';
 
 			// Adding name label
 			/*var namelabel = document.createElement('p')
-			namelabel.innerHTML = currentStudents[i].name;
+					namelabel.innerHTML = currentStudents[i].name;
 			
-			studentIcon.appendChild(namelabel);*/
+					studentIcon.appendChild(namelabel);*/
 
 			// Adding div to the student board and pushing it to current array
 			divStudentBoard.appendChild(studentIcon);
